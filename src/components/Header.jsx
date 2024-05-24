@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-white border-b border-gray-200">
                 <div className="px-4 mx-auto">
                   <div className="flex items-center justify-between h-16">
-                    <div className="flex items-center -m-2 xl:hidden">
+                    {/* <div className="flex items-center -m-2 xl:hidden">
                       <button
                         type="button"
                         className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-lg hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
@@ -25,24 +25,13 @@ const Header = () => {
                           ></path>
                         </svg>
                       </button>
-                    </div>
+                    </div> */}
 
                     <div className="flex ml-6 xl:ml-0">
-                      <div className="flex items-center flex-shrink-0">
-                        <img
-                          className="block w-auto h-8 lg:hidden"
-                          src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/logo-symbol.svg"
-                          alt=""
-                        />
-                        <img
-                          className="hidden w-auto h-8 lg:block"
-                          src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/logo.svg"
-                          alt=""
-                        />
-                      </div>
+                      <h1 className='text-4xl font-bold'>Dashboard</h1>
                     </div>
 
-                    <div className="flex-1 hidden max-w-xs ml-40 mr-auto lg:block">
+                    <div className="flex-1 hidden pl-14 ml-96 mr-auto lg:inline">
                       <label htmlFor="" className="sr-only">
                         {" "}
                         Search{" "}
@@ -69,8 +58,8 @@ const Header = () => {
                           type="search"
                           name=""
                           id=""
-                          className="block w-full py-2 pl-10 border border-gray-300 rounded-lg focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm"
-                          placeholder="Type to search"
+                          className="block  py-2 pl-10 border border-gray-300 rounded-lg focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm"
+                          placeholder="search"
                         />
                       </div>
                     </div>
