@@ -23,10 +23,11 @@ const Navbar = () => {
           <div className="flex flex-col flex-1 px-3 mt-6">
             <div className="space">
               <nav className="flex-1">
+               <nav className="space-y-2">
                 <a
                   href="#"
                   title=""
-                  className="flex items-center px-4 py-2.5 text-sm font-medium text-white transition-all duration-200 bg-indigo-600 rounded-lg group"
+                  className="flex items-center px-4 py-2 text-sm font-medium text-white transition-all duration-200 bg-gray-600 rounded-lg group"
                 >
                   <MdOutlineDashboardCustomize className="mr-4 text-xl mt-1 font-semibold"/>
                   Dashboard
@@ -34,7 +35,7 @@ const Navbar = () => {
 
                 <a
                   href="#"
-                  className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
+                  className="flex items-center px-4 py-2 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-gray-600 group"
                 >
                   <FaRegCalendar className="mr-4 text-xl mt-1 font-semibold"/>
                   Calendar
@@ -42,7 +43,7 @@ const Navbar = () => {
 
                 <a
                   href="#"
-                  className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
+                  className="flex items-center px-4 py-2 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-gray-600 group"
                 >
                   <IoMailUnreadOutline className="mr-4 text-xl mt-1 font-semibold"/>
                   Mail
@@ -50,12 +51,12 @@ const Navbar = () => {
 
                 <a
                   href="#"
-                  className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
+                  className="flex items-center px-4 py-2 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-gray-600 group"
                 >
                   <LuKanban className="mr-4 text-xl mt-1 font-semibold"/>
                   Kanban
                 </a>
-
+                </nav> 
                 <nav className="mt-80">
                   <div className="bg-gray-200 rounded-md shadow-lg m-1 p-2">
                     <p className="font-bold flex"><FaHeadphonesAlt className="mt-1 mr-2" /> Need support?</p>
@@ -66,7 +67,7 @@ const Navbar = () => {
                 
                 <a
                   href="#"
-                  className="flex items-center px-4 py-2.5 text-lg font-semibold transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
+                  className="flex items-center px-4 py-2 text-lg font-semibold transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-gray-600 group"
                 >
                   <TbLogout className="mr-4 text-xl mt-1 font-semibold"/>
                   Log Out
