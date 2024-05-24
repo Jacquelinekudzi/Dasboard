@@ -1,8 +1,11 @@
 // import React, { useState } from 'react';
 
 import Header from "./Header";
-import { FaHeadphonesAlt } from "react-icons/fa";
+import { FaHeadphonesAlt, FaRegCalendar } from "react-icons/fa";
 import { TbLogout } from "react-icons/tb";
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { LuKanban } from "react-icons/lu";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -25,7 +28,7 @@ const Navbar = () => {
                   title=""
                   className="flex items-center px-4 py-2.5 text-sm font-medium text-white transition-all duration-200 bg-indigo-600 rounded-lg group"
                 >
-                  
+                  <MdOutlineDashboardCustomize className="mr-4 text-xl mt-1 font-semibold"/>
                   Dashboard
                 </a>
 
@@ -33,7 +36,7 @@ const Navbar = () => {
                   href="#"
                   className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
                 >
-                  
+                  <FaRegCalendar className="mr-4 text-xl mt-1 font-semibold"/>
                   Calendar
                 </a>
 
@@ -41,7 +44,7 @@ const Navbar = () => {
                   href="#"
                   className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
                 >
-                  
+                  <IoMailUnreadOutline className="mr-4 text-xl mt-1 font-semibold"/>
                   Mail
                 </a>
 
@@ -49,7 +52,7 @@ const Navbar = () => {
                   href="#"
                   className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-indigo-600 group"
                 >
-                  
+                  <LuKanban className="mr-4 text-xl mt-1 font-semibold"/>
                   Kanban
                 </a>
 
