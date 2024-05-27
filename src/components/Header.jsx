@@ -31,7 +31,7 @@ const Header = () => {
                       <h1 className='text-4xl font-bold'>Dashboard</h1>
                     </div>
 
-                    <div className="flex-1 hidden pl-14 ml-96 mr-auto lg:inline">
+                    <div className="flex-1 pl-14 ml-96 mr-auto lg:inline">
                       <label htmlFor="" className="sr-only">
                         {" "}
                         Search{" "}
