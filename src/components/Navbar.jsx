@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-1 h-screen bg-black">
       <div className="">
-        <div className="flex flex-col h-screen pt-5  bg-gray-100">
+        <div className="flex flex-col h-screen pt-5 bg-gray-100">
           <div className="flex items-center flex-shrink-0 px-4">
             <img
               className="w-auto h-8"
@@ -83,8 +83,8 @@ const Navbar = () => {
 
       <div className="flex flex-col flex-1 max-h-screen">
         <main>
-          <div className="py-6">
-            <div className="px-4  max-w-7xl sm:px-6 md:px-8">
+          <div className="">
+            <div className="">
               <Header/>
             </div>
           </div>
